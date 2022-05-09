@@ -121,9 +121,6 @@ async def start_command(client: Client, message: Message):
                 InlineKeyboardButton("•Gʀᴏᴜᴘ•", url=client.invitelink2),],
             [
                 InlineKeyboardButton("•Cʜᴀɴɴᴇʟ•", url=client.invitelink3),
-                InlineKeyboardButton("•Gʀᴏᴜᴘ•", url=client.invitelink4),],
-            [   
-                InlineKeyboardButton("•Cʜᴀɴɴᴇʟ•", url=client.invitelink5),
             ],
             [
                 InlineKeyboardButton("•Tᴜᴛᴜᴘ", callback_data="close"),
@@ -153,15 +150,11 @@ async def start_command(client: Client, message: Message):
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton("•ᴄʜᴀɴɴᴇʟ​​•", url=client.invitelink), 
-            InlineKeyboardButton("•ɢʀᴏᴜᴘ•", url=client.invitelink2),
+            InlineKeyboardButton("•Cʜᴀɴɴᴇʟ​​•", url=client.invitelink), 
+            InlineKeyboardButton("•Gʀᴏᴜᴘ•", url=client.invitelink2),
         ],
         [
             InlineKeyboardButton("•Cʜᴀɴɴᴇʟ•", url=client.invitelink3),
-            InlineKeyboardButton("•Gʀᴏᴜᴘ•", url=client.invitelink4),
-        ],
-        [   
-            InlineKeyboardButton("•Cʜᴀɴɴᴇʟ•", url=client.invitelink5),
         ],
     ]
     try:

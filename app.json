@@ -15,15 +15,15 @@
     },
     "OWNER": {
       "description": "Masukan Username Telegram untuk Owner BOT [ Jangan Pake @ ]",
-      "value": "Kayxzy"
+      "value": "bubutuh"
     },
     "OWNER_ID": {
       "description": "Masukan User ID Telegram untuk Owner BOT",
-      "value": "1904791338"
+      "value": "2028043656"
     },
     "ADMINS": {
       "description": "Masukan User ID untuk mendapatkan hak Admin BOT [Hanya dapat membuat link]",
-      "value": "1904791338"
+      "value": "2028043656"
     },
     "APP_ID": {
       "description": "Dapatkan APP ID di web my.telegram.org",
@@ -35,11 +35,19 @@
     },
     "CHANNEL_ID": {
       "description": "Masukan ID Channel Untuk [Channel Database]",
-      "value": "-1001296205985"
+      "value": "-1001564188412"
     },
     "FORCE_SUB_CHANNEL": {
       "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya",
-      "value": "-1001500650856"
+      "value": "-1001653950349"
+    },
+    "FORCE_SUB_CHANNEL1": {
+      "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya",
+      "value": "-1001767905760"
+    },
+    "FORCE_SUB_CHANNEL2": {
+      "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya",
+      "value": "-1001796941946"
     },
     "START_MESSAGE": {
       "description": "Pesan /start memulai awalan ke bot, Gunakan format parsemode HTML",
@@ -51,7 +59,7 @@
     },
     "CHANNEL":{
       "description": "Masukan Username Channel anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
-      "value": "kayzuchannel",
+      "value": "outfitbyshopee2022",
       "required": false
    } 
   },

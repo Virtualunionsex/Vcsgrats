@@ -6,7 +6,7 @@
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/Kayzyu/Kay-Fsub5",
+  "repository": "https://github.com/Kayzyu/Kay-Fsub1",
   "logo": "https://telegra.ph/file/21bca0a64032cd5b23b3c.jpg",
   "env": {
     "TG_BOT_TOKEN": {
@@ -40,10 +40,6 @@
     "FORCE_SUB_CHANNEL": {
       "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya",
       "value": "-1001653950349"
-    },
-    "FORCE_SUB_CHANNEL1": {
-      "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya",
-      "value": "-1001767905760"
     },
     "START_MESSAGE": {
       "description": "Pesan /start memulai awalan ke bot, Gunakan format parsemode HTML",

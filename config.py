@@ -9,7 +9,7 @@ import os
 from logging.handlers import RotatingFileHandler
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6213627340:AAHNmWHfsiZ38gkH4_344BezCbuG7-hWauc")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6214783879:AAEdOPhUF-3QJGQiXeY8AahyT1-3X6kIZ9A")
 
 # API ID Anda dari my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "16246834"))
@@ -18,22 +18,22 @@ APP_ID = int(os.environ.get("APP_ID", "16246834"))
 API_HASH = os.environ.get("API_HASH", "29b3ffa9245c07f05375b92f38e8f13d")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001948889848"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001805849861"))
 
 # OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1715348447"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1382807588"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "panggil_y")
+OWNER = os.environ.get("OWNER", "saila4")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "postgres://vmokglxt:pD_EGa3NhZc-D2vTiBereuctfaWpR8xr@tyke.db.elephantsql.com/vmokglxt")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://astjrecf:1ftWT_nJhnth6iZdClhuwNL7zJYZJIid@trumpet.db.elephantsql.com/astjrecf")
 
 # Username CH & Group
 CHANNEL = os.environ.get("CHANNEL", "nakama_asl")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001968774419"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001617047128"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -43,7 +43,7 @@ START_MSG = os.environ.get(
     "<b>Hello {first}</b>\n\n<b>Saya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1715348447 2075664234 1893810734").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "1856497356 5360457944").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 
